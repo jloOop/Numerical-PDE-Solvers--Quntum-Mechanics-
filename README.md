@@ -18,7 +18,7 @@ spin-orbit effects under various potentials and boundary conditions.
    - Core libraries: CuPy, NumPy, SciPy, Matplotlib. No external dependencies beyond Python 3.8+ and CUDA 11+ for GPU mode.
 
 4. **Mathematical Approach**:  
-   The solvers use mainly finite difference discretization for the PDE, with Crank-Nicolson for time-stepping to ensure stability and unitarity of big matrices with suitable boundary conditions include Dirichlet, Neumann, and Robin (absorbing) to answer some question regarding Bohmian mechanics and Bohmian trajectory of a particle in finite boxes.
+   The solvers use mainly finite difference discretization for the PDE, with Crank-Nicolson for time-stepping to ensure stability and correct implemenatation of (non)unitarity of the big matrices with suitable boundary conditions include Dirichlet, Neumann, and Robin (absorbing) to for instance answer some question regarding Bohmian mechanics and Bohmian trajectory ariival time of a particle in finite boxes.
 
 ## Getting Started
 
