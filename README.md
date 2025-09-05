@@ -1,9 +1,3 @@
-# Numerical-PDE-Solvers--Foundation-of-Quntum-Mechanics-
-Here I present several Numerical PDE solvers due to the Schrodinger equation in 1 and 3 dimenssions with different potential and boundary conditions to answer some Fundamental and foundational questions in Quantum Mechanics.
-Subsequent generated data is analyzed on CPU with python and some of the generated images and Gifs will be presented.
-To write the scripts I used Python with focous mostly on Cuda and Cupy packages to work on GPU A100 and H200 on Cluster Helix.
-The main mathematical approach to attack the numeric solver of Schrodinger equation as a PDE was Finite difference method such as Cracnk-Nicolson method, forward/backward/cenrtal finite method and related topics.
-
 
 
 # Numerical PDE Solvers for Foundations of Quantum Mechanics
