@@ -2,8 +2,9 @@
 
 # Numerical PDE Solvers for Foundations of Quantum Mechanics
 
-This repository contains Python-based numerical solvers for the linear Schrödinger equation in 1D to 3D in spatial and 1D in time, designed to explore fundamental questions in quantum mechanics, such as wave function evolution of finite size, tunneling, spin-orbit effects under various potentials and boundary conditions and arrival time of a particle on a detector.
-
+This repository contains Python-based numerical solvers for the linear Schrödinger equation in 1D to 3D in spatial and 1D in time, designed to explore fundamental questions in quantum mechanics, such as wave function evolution of finite size, tunneling, arrival time of a particle on a detector, and
+spin-orbit effects under various potentials and boundary conditions.
+      
 ## Key Features
 1. **Solvers and Simulations**:  
    Implementations of finite difference methods (e.g., Crank-Nicolson, forward/backward/central differences) to solve the time-dependent Schrödinger equation. Supports 1D and 3D grids with different potential such as harmonic potentials, absorbing boundaries, and spinor extensions for spin-1/2 particles.
